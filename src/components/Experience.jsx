@@ -10,6 +10,7 @@ import node from '../assets/node.png';
 import redux from '../assets/redux.png';
 import sql from '../assets/sql.png';
 import tailwind from '../assets/tailwind.png';
+import net from '../assets/netlogo.png';
 
 
 const Experience = () => {
@@ -79,6 +80,12 @@ const Experience = () => {
       src: sql,
       title: "SQL/SSIS",
       style: "shadow-cyan-500",
+    },
+    {
+      id: 12,
+      src: net,
+      title: ".NET",
+      style: "shadow-purple-500",
     },
   ];
 
